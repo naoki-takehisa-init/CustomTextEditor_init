@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D2FB1792A77BDEF00EDA0B5 /* NumberColorfulTextEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FB1782A77BDEF00EDA0B5 /* NumberColorfulTextEditorController.swift */; };
+		6D2FB17B2A77CA0600EDA0B5 /* KanjiBigTextEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FB17A2A77CA0600EDA0B5 /* KanjiBigTextEditorController.swift */; };
 		6DE7D6C42A7105A100D42404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7D6C32A7105A100D42404 /* AppDelegate.swift */; };
 		6DE7D6C62A7105A100D42404 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7D6C52A7105A100D42404 /* SceneDelegate.swift */; };
-		6DE7D6C82A7105A100D42404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7D6C72A7105A100D42404 /* ViewController.swift */; };
 		6DE7D6CB2A7105A100D42404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE7D6C92A7105A100D42404 /* Main.storyboard */; };
 		6DE7D6CD2A7105A200D42404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE7D6CC2A7105A200D42404 /* Assets.xcassets */; };
 		6DE7D6D02A7105A200D42404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE7D6CE2A7105A200D42404 /* LaunchScreen.storyboard */; };
+		6DE7D6D82A71089D00D42404 /* BackgroundRedTextEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7D6D72A71089D00D42404 /* BackgroundRedTextEditorController.swift */; };
+		6DE7D6DB2A71F9A300D42404 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE7D6DA2A71F9A300D42404 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D2FB1782A77BDEF00EDA0B5 /* NumberColorfulTextEditorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberColorfulTextEditorController.swift; sourceTree = "<group>"; };
+		6D2FB17A2A77CA0600EDA0B5 /* KanjiBigTextEditorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiBigTextEditorController.swift; sourceTree = "<group>"; };
 		6DE7D6C02A7105A100D42404 /* CustomTextEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE7D6C32A7105A100D42404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DE7D6C52A7105A100D42404 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6DE7D6C72A7105A100D42404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6DE7D6CA2A7105A100D42404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DE7D6CC2A7105A200D42404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DE7D6CF2A7105A200D42404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DE7D6D12A7105A200D42404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE7D6D72A71089D00D42404 /* BackgroundRedTextEditorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRedTextEditorController.swift; sourceTree = "<group>"; };
+		6DE7D6DA2A71F9A300D42404 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		6DE7D6C22A7105A100D42404 /* CustomTextEditor */ = {
 			isa = PBXGroup;
 			children = (
+				6DE7D6D92A710A3800D42404 /* ViewController */,
 				6DE7D6C32A7105A100D42404 /* AppDelegate.swift */,
 				6DE7D6C52A7105A100D42404 /* SceneDelegate.swift */,
-				6DE7D6C72A7105A100D42404 /* ViewController.swift */,
 				6DE7D6C92A7105A100D42404 /* Main.storyboard */,
 				6DE7D6CC2A7105A200D42404 /* Assets.xcassets */,
 				6DE7D6CE2A7105A200D42404 /* LaunchScreen.storyboard */,
 				6DE7D6D12A7105A200D42404 /* Info.plist */,
 			);
 			path = CustomTextEditor;
+			sourceTree = "<group>";
+		};
+		6DE7D6D92A710A3800D42404 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6DE7D6D72A71089D00D42404 /* BackgroundRedTextEditorController.swift */,
+				6DE7D6DA2A71F9A300D42404 /* HomeViewController.swift */,
+				6D2FB1782A77BDEF00EDA0B5 /* NumberColorfulTextEditorController.swift */,
+				6D2FB17A2A77CA0600EDA0B5 /* KanjiBigTextEditorController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE7D6C82A7105A100D42404 /* ViewController.swift in Sources */,
+				6D2FB1792A77BDEF00EDA0B5 /* NumberColorfulTextEditorController.swift in Sources */,
+				6DE7D6D82A71089D00D42404 /* BackgroundRedTextEditorController.swift in Sources */,
 				6DE7D6C42A7105A100D42404 /* AppDelegate.swift in Sources */,
 				6DE7D6C62A7105A100D42404 /* SceneDelegate.swift in Sources */,
+				6DE7D6DB2A71F9A300D42404 /* HomeViewController.swift in Sources */,
+				6D2FB17B2A77CA0600EDA0B5 /* KanjiBigTextEditorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
